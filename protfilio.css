@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    
+    background-color: rgb(114, 106, 106);
+    
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+   /* background-color: rgb(231, 19, 100);*/
+    height: 60vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hellow{
+    font-size:85px;
+}
+.name{
+    font-size:70px;
+}
+.about{
+    font-size: 50px;
+}
+.btn{
+    margin-top: 34px;
+}
+.btn button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    margin: 0 3px;
+    font-weight: bold;
+    font-size: 21px;
+    cursor: pointer;
+
+}
+.btn button:hover{
+    color:dodgerblue;
+    background-color: white;
+}
+.devpic img{
+   height: 60vh;
+    
+}
+
+.main{
+   /* background-color: yellow;*/
+    width: 90vw;
+    height: 100vh;
+
+}
+.contectfoam{
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    padding: 0 34px;
+    padding-top: 144px;
+    margin: 0 88px;
+}
+
+.contectfoam h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   /*text-align: center;*/
+    padding: 12px 0;
+}
+.contectfoam form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contectfoam form div input{
+    width: 26vw;
+    border-radius:5px ;
+    margin:6px 0 0 0 ;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    color:black
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.btn-sm{
+    background-color: rgb(101, 101, 241);
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 2px;
+    
+}
+.blogcontainer{
+    margin: 0 88px;
+}
+.blogcontainer h1{
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blogitem{
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}.blogitem h3{
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blogitem p{
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.introcontainer{
+    margin: 40px 88px;
+}
+.introcontainer h1{
+    margin: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.introcontainer p{
+    margin: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skillcontainer{
+    padding: 12px;
+
+}
+.skillitem{
+    display: flex;
+    align-items:  center;
+}
+
+.skill{
+    width: 265px;
+    height:6px ;
+    background-color: red;
+    border: 2px;
+}
+.s100{
+    width: 240px;
+    background-color:green;
+}
+.s80{
+    width: 190px;
+    background-color :darkblue;
+}
+.s75{
+    width: 140px;
+    background-color: orangered;
+    
+}
+.s50{
+    width: 80px;
+    background-color: yellowgreen;
+}
+.project{
+    
+    margin: 10px;
+    align-items:  center;
+}
+
+.services {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.service {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.service h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.service p {
+    margin: 10px 0 0;
+    font-size: 1em;
+}
+
+
+    .services {
+        padding: 10px;
+    }
+
+    .service h3 {
+        font-size: 1.2em;
+    }
+
+    .service p {
+        font-size: 0.9em;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    .sidebarGo{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+    
+    .hamburger{
+        position: absolute;
+        cursor: pointer;
+        top:10px;
+        left: 10px;
+
+    }
+    .cross{
+        margin-left: 185px;
+    }
+     @media (max-width: 1615px) {
+        *{
+          /*  background-color: rgb(223, 131, 131);*/
+        }
+       
+    
+    /*.sidebar{
+        
+            transform: translate: (-443px ,0px);
+            position:  absolute;
+        }*/
+
+    }
+    
+   
+    
+    
+    
+    
+
+
